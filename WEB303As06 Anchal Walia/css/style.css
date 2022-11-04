@@ -1,0 +1,111 @@
+/* html, body{
+    margin: 0;
+    padding: 0;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+:root{
+    --dark-background : #333333;
+    --dark-background-2 : #2d2d2d;
+    --dark-background-3 : #383f44;
+    --theme-color: #0A80FF;
+  }
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    color: #ffffff;
+    min-height: 100vh;
+    background-color: var(--dark-background);
+}
+
+h1{
+    margin: 1em 0;
+    text-align: center;
+}
+h1 + div{
+    text-align: center;
+}
+img{
+    width:400px;
+    max-width: 100%;
+}
+
+
+main{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+
+
+
+section.accodians{
+    margin-bottom: 40px;
+}
+section.accodians .accord .accord-label{
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: var(--dark-background-3);
+}
+section.accodians .accord .accord-label.active{
+    background-color: var(--theme-color);
+}
+section.accodians .accord .accord-info{
+    padding: 20px;
+    display: none;
+    border-top: none;
+    border: 1px solid var(--theme-color);
+}
+section.accodians .accord .accord-info.active{
+    display: block;
+}
+
+
+
+
+
+section.tabs{
+    padding: 20px 0;
+}
+section.tabs > div{
+    margin-bottom: 20px;
+}
+.tab-heads{
+    background-color: var(--dark-background-3);
+}
+.tabs-2 .tab-heads{
+    text-align: center;
+}
+.tab-heads button, .tab2-heads button{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-right: 2px solid var(--dark-background);
+    background: none;
+}
+.tabs-2 .tab-heads button:last-child{
+    border: none;
+}
+.tab-heads button.active, .tab2-heads button.active{
+    background-color: var(--theme-color);
+}
+.tab-panels .tab-panel, .tab2-panels .tab2-panel{
+    padding: 20px;
+    display: none;
+    background-color: var(--dark-background-2);
+}
+.tab-panels .tab-panel.active, .tab2-panels .tab2-panel.active{
+    display: block;
+    border: 1px solid var(--theme-color);
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
