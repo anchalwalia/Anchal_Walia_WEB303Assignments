@@ -1,0 +1,58 @@
+[
+    {
+        "firstName": "Harshad",
+        "LastName": "Mehta",
+        "characterType": "Stockbroker",
+        "Chapter": "13",
+        "age": "42"
+
+    },
+    {
+        "firstName": "Jyoti",
+        "LastName": "Mehta",
+        "characterType": "Harshad Wife",
+        "Chapter": "11",
+        "age": "32"
+    
+    },
+    {
+        "firstName": "Suchet",
+        "LastName": "Dalal",
+        "characterType": "Journlist",
+        "Chapter": "13",
+        "age": "30"
+    
+    },
+    {
+        "firstName": " Manu",
+        "LastName": "Mundra",
+        "characterType": "kingpin of the stock",
+        "Chapter": "10",
+        "age": "55"
+    
+    },
+    {
+        "firstName": "Rakesh",
+        "LastName": "Jhunjhunwala",
+        "characterType": "Stockbroker",
+        "Chapter": "8",
+        "age": "49"
+    
+    },
+    {
+        "firstName": "Ashwin",
+        "LastName": "Mehta",
+        "characterType": "Harshad brother",
+        "Chapter": "13",
+        "age": "48"
+    
+    },
+    {
+        "firstName": "Debashis",
+        "LastName": "Basu",
+        "characterType": "Journlist Husband",
+        "Chapter": "7",
+        "age": "39"
+    
+    }
+]
